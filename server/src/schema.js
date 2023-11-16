@@ -20,9 +20,9 @@ const typeDefs = gql`
     "picture that the track will display"
     thumbnail: String
     "the length of the track"
-    length: int
+    length: Int
     "how many modules in the track"
-    modulesCount: int
+    modulesCount: Int
   }
 
   "This shows the author of a specific module or track"
